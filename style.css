@@ -172,8 +172,8 @@ body {
 }
 @font-face {
   font-family: "BankGothic Md BT";
-  src: url("./bankgothicmdbt_medium.otf") format("otf"),
-    url("./bankgothicmdbt_medium.otf") format("otf");
+  src: url("./bankgothicmdbt_medium.woff2") format("woff2"),
+    url("./bankgothicmdbt_medium.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

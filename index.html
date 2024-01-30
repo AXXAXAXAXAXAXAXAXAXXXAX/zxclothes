@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>zxclothes</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="header">
+          <ul class="nav">
+            <li class="logo">
+              <p><a href="/">zxclothes</a></p>
+            </li>
+            <li class="nav-item">
+              <p>
+                <a
+                  href="javascript:void(0);"
+                  onclick="openModal('reviewsModal')"
+                  >reviews</a
+                >
+              </p>
+            </li>
+            <li class="nav-item">
+              <p>
+                <a
+                  href="javascript:void(0);"
+                  onclick="openModal('shipmentModal')"
+                  >shipment</a
+                >
+              </p>
+            </li>
+            <li class="nav-item">
+              <p>
+                <a href="#" onclick="openModal('contactsModal')">contacts</a>
+              </p>
+            </li>
+            <li class="nav-item">
+              <p><a href="#" onclick="openModal('faqModal')">faq</a></p>
+            </li>
+          </ul>
+        </div>
+        <div class="items">
+          <div class="item">
+            <img class="item-logo" src="./images/item1.jpg" alt="" />
+            <p class="item-name">vibovi kot</p>
+            <button
+              class="item-buy"
+              onclick="window.location.href = 'https://t.me/send?start=IVA8PiZhO33q';
+            "
+            >
+              <p class="item-buy-text">buy</p>
+              <p class="item-buy-price">1999$</p>
+            </button>
+          </div>
+          <div class="item">
+            <img class="item-logo" src="./images/item2.jpg" alt="" />
+            <p class="item-name">ahuenni kot</p>
+            <button
+              class="item-buy"
+              onclick="window.location.href = 'https://t.me/send?start=IVA8PiZhO33q';
+            "
+            >
+              <p class="item-buy-text">buy</p>
+              <p class="item-buy-price">2159$</p>
+            </button>
+          </div>
+          <div class="item">
+            <img class="item-logo" src="./images/item3.jpg" alt="" />
+            <p class="item-name">kot&sapogi</p>
+            <button
+              class="item-buy"
+              onclick="window.location.href = 'https://t.me/send?start=IVA8PiZhO33q';
+            "
+            >
+              <p class="item-buy-text">buy</p>
+              <p class="item-buy-price">1599$</p>
+            </button>
+          </div>
+          <div class="item">
+            <img class="item-logo" src="./images/item4.jpg" alt="" />
+            <p class="item-name">kot&klon</p>
+            <button
+              class="item-buy"
+              onclick="window.location.href = 'https://t.me/send?start=IVA8PiZhO33q';
+            "
+            >
+              <p class="item-buy-text">buy</p>
+              <p class="item-buy-price">3999$</p>
+            </button>
+          </div>
+          <div class="item">
+            <img class="item-logo" src="./images/item5.jpg" alt="" />
+            <p class="item-name">kot&pivo</p>
+            <button
+              class="item-buy"
+              onclick="window.location.href = 'https://t.me/send?start=IVA8PiZhO33q';
+            "
+            >
+              <p class="item-buy-text">buy</p>
+              <p class="item-buy-price">9999$</p>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>&copy; 2024 zxclothes. All rights reserved.</p>
+        <p>
+          Designed and coded by<a
+            href="https://github.com/AXXAXAXAXAXAXAXAXAXXXAX"
+          >
+            AXXAXAXAXAXAXAXAXAXXXAX
+          </a>
+        </p>
+        <p>
+          Contact us at:
+          <a href="mailto:info@zxclothes.com">info@zxclothes.com</a>
+        </p>
+      </div>
+    </div>
+    <div id="reviewsModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('reviewsModal')">&times;</span>
+        <p>
+          Добро пожаловать в раздел отзывов! Здесь вы можете прочитать мнения
+          наших клиентов о продукции zxclothes
+        </p>
+
+        <div class="review">
+          <p><strong>shadowraze:</strong></p>
+          <p>
+            Прекрасные товары и отличное обслуживание. Я очень доволен своей
+            покупкой!
+          </p>
+        </div>
+
+        <div class="review">
+          <p><strong>zxcursed:</strong></p>
+          <p>
+            Замечательный магазин! Качественные товары и быстрая доставка.
+            Рекомендую!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="shipmentModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('shipmentModal')">&times;</span>
+        <p>
+          Узнайте больше о наших услугах доставки! Мы гарантируем быструю и
+          надежную доставку продукции ZxClothes прямо к вам.
+        </p>
+
+        <div class="shipment-info">
+          <p><strong>Стандартная доставка:</strong></p>
+          <p>Доставка занимает обычно 5-7 рабочих дней.</p>
+        </div>
+
+        <div class="shipment-info">
+          <p><strong>Экспресс-доставка:</strong></p>
+          <p>Получите свои товары в течение 2-3 рабочих дней.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="contactsModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('contactsModal')">&times;</span>
+        <p>
+          Если у вас есть вопросы или вам нужна дополнительная информация,
+          свяжитесь с нами. Мы всегда рады помочь!
+        </p>
+
+        <div class="contact-details">
+          <p><strong>Наш адрес:</strong></p>
+          <p>123 Main Street, City, Country</p>
+        </div>
+
+        <div class="contact-details">
+          <p><strong>Email:</strong></p>
+          <p><a href="mailto:info@zxclothes.com">info@zxclothes.com</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="faqModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('faqModal')">&times;</span>
+        <p>
+          Здесь вы найдете ответы на часто задаваемые вопросы. Если у вас есть
+          свой вопрос, не стесняйтесь задать его нам!
+        </p>
+
+        <div class="faq-question">
+          <p><strong>Какие методы оплаты вы принимаете?</strong></p>
+          <p>Мы принимаем кредитные карты и PayPal.</p>
+        </div>
+
+        <div class="faq-question">
+          <p><strong>Как мне отследить мой заказ?</strong></p>
+          <p>
+            Вы получите уведомление с трекинг-номером после отгрузки вашего
+            заказа.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./modal.js"></script>
+</html>

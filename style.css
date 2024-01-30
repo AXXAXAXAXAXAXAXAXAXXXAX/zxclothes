@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "BankGothic Md BT";
+  src: url("./bankgothicmdbt_medium.otf");
+}
+
 body {
   font-family: "BankGothic Md BT";
   color: black;
@@ -169,8 +174,4 @@ body {
   .header li {
     margin-bottom: 10px;
   }
-}
-@font-face {
-  font-family: "BankGothic Md BT";
-  src: url("./bankgothicmdbt_medium.woff2");
 }

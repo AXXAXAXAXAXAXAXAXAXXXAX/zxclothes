@@ -160,12 +160,12 @@ body {
 @media screen and (max-width: 768px) {
   .header ul {
     display: flex;
-    flex-direction: column; /* Располагаем элементы вертикально */
+    flex-direction: column; 
     align-items: center;
     text-align: center;
   }
 
   .header li {
-    margin-bottom: 10px; /* Добавляем пространство между элементами списка */
+    margin-bottom: 10px;
   }
 }
